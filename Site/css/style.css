@@ -10,6 +10,9 @@
     --cor-escuro2: #211431;
     --cor-escuro3: #352844;
 
+    /* Tipografica */
+    font-family: "Poppins", sans-serif;
+
     /* Hierarquia Tipografica */
     --font-tamanho-h1: 2.25rem;
     --font-tamanho-h2: 1.1rem;
@@ -27,6 +30,7 @@
     }
 }
 
+/* Cores ao selecionar um texto */
 ::selection {
     background: var(--cor-primaria);
     color: var(--cor-clara);
@@ -35,7 +39,6 @@
 body {
     background: var(--cor-escuro);
     color: var(--cor-clara);
-    font-family: "Poppins", sans-serif;
 }
 
 .titulo,
