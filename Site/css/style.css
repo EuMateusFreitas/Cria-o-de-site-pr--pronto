@@ -1,0 +1,74 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+:root {
+    /* Paleta de cores*/
+    --cor-primaria: #683DE5;
+    --cor-secundaria: #11E5B3;
+    --cor-clara: #f3f3f3;
+    --cor-escuro: #1a1c1e;
+    --cor-escuro2: #211431;
+    --cor-escuro3: #352844;
+
+    /* Hierarquia Tipografica */
+    --font-tamanho-h1: 2.25rem;
+    --font-tamanho-h2: 1.1rem;
+    --font-tamanho-h3: 0.85rem;
+    --font-tamanho-p: 0.941rem;
+}
+
+/* Tipografia responsiva */
+@media screen and (max-width: 992px) {
+    :root {
+        --font-tamanho-h1: 2.75rem;
+        --font-tamanho-h2: 1.25rem;
+        --font-tamanho-h3: 1rem;
+        --font-tamanho-p: 0.938rem;
+    }
+}
+
+::selection {
+    background: var(--cor-primaria);
+    color: var(--cor-clara);
+}
+
+body {
+    background: var(--cor-escuro);
+    color: var(--cor-clara);
+    font-family: "Poppins", sans-serif;
+}
+
+.titulo,
+h1 {
+    font-size: var(--font-tamanho-h1);
+    font-weight: 500;
+}
+
+.titulo2,
+h2 {
+    color: var(--cor-secundaria);
+    font-size: var(--font-tamanho-h2);
+    font-weight: 600;
+}
+
+.titulo3,
+h3 {
+    font-weight: 500;
+    font-size: var(--font-tamanho-h3);
+}
+
+p {
+    font-size: 0.941rem;
+    font-weight: 400;
+    line-height: 29px;
+    color: #b0a99f;
+
+}
+
+.intro {
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+}
