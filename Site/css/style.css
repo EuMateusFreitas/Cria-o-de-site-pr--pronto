@@ -15,8 +15,8 @@
 
     /* Hierarquia Tipografica */
     --font-tamanho-h1: 2.25rem;
-    --font-tamanho-h2: 1.1rem;
-    --font-tamanho-h3: 0.85rem;
+    --font-tamanho-h2: 1.3rem;
+    --font-tamanho-h3: 1rem;
     --font-tamanho-p: 0.941rem;
 }
 
@@ -26,7 +26,7 @@
         --font-tamanho-h1: 2.75rem;
         --font-tamanho-h2: 1.25rem;
         --font-tamanho-h3: 1rem;
-        --font-tamanho-p: 0.938rem;
+        --font-tamanho-p: 0.838rem;
     }
 }
 
@@ -51,7 +51,7 @@ h1 {
 h2 {
     color: var(--cor-secundaria);
     font-size: var(--font-tamanho-h2);
-    font-weight: 600;
+    font-weight: 300;
 }
 
 .titulo3,
@@ -70,6 +70,8 @@ p {
 
 .intro {
     font-weight: 300;
+    padding: 10px 20px;
+    border-left: 3px solid #363a3c;
 }
 
 a {
