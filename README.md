@@ -1,5 +1,5 @@
 # Web AutoFlow: Automação para devs web
-Visualização dos arquivos da pasta `/Site` : [eumateusfreitas.github.io/Web-AutoFlow/Site](https://eumateusfreitas.github.io/Web-AutoFlow/Site)
+📁Visualização dos arquivos da pasta `/Site` : [eumateusfreitas.github.io/Web-AutoFlow/Site](https://eumateusfreitas.github.io/Web-AutoFlow/Site)
 
 Olá! Criei um repositório para ajudar desenvolvedores web front-end na criação de sites com estruturação completa. Compartilho recursos para automatizar tarefas e acelerar o processo, deixando mais tempo para aspectos criativos e estratégicos. A automatização garante atualidade das informações dos sites.
 
