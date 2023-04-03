@@ -80,7 +80,7 @@ a {
 }
 
 button,
-.botao1 {
+.botao {
     cursor: pointer;
     outline: none;
     border: none;
@@ -99,7 +99,7 @@ button,
 }
 
 button:hover,
-.botao1:hover {
+.botao:hover {
     transform: translatey(6px);
     box-shadow: none;
 }
