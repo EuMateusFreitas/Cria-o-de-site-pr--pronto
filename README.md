@@ -1,4 +1,4 @@
-# Web AutoFlow: Automação para devs web
+# Web AutoFlow: Automação para devs web [![Netlify Status](https://api.netlify.com/api/v1/badges/5b75095d-a67a-4bd3-936c-3f2f7ca56e8f/deploy-status)](https://app.netlify.com/sites/webautoflow/deploys)
 📁Visualização dos arquivos da pasta `/Site` : [eumateusfreitas.github.io/Web-AutoFlow/Site](https://eumateusfreitas.github.io/Web-AutoFlow/Site)
 
 Olá DEvs! Criei esse repositório para ajudar devs web front-end na criação de sites com estruturação completa. Compartilho recursos para automatizar tarefas e acelerar o processo, deixando mais tempo para aspectos criativos e estratégicos. A automatização garante atualidade das informações dos sites. 
