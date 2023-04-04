@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: https://texte-mateusfreitas.netlify.app/sitemap.xml
