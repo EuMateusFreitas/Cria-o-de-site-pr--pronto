@@ -7,6 +7,7 @@ pre {
     margin: 1rem 0 2rem;
     padding: 1rem 2.5rem 1rem 1rem;
     border-radius: 10px;
+    width: -webkit-fill-available;
 }
 
 code {
@@ -22,4 +23,11 @@ input, textarea {
 
 textarea,input {
     width: -webkit-fill-available;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
