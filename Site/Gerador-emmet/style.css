@@ -1,0 +1,25 @@
+pre {
+    white-space: pre-wrap;
+    color: #f8efa1;
+    max-width: 100%;
+    background-color: #292829;
+    border: 1px solid transparent;
+    margin: 1rem 0 2rem;
+    padding: 1rem 2.5rem 1rem 1rem;
+    border-radius: 10px;
+}
+
+code {
+max-width: 500px;
+}
+input, textarea {
+    background-color: #292829;
+    color: aliceblue;
+    padding: 15px 32px;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+textarea,input {
+    width: -webkit-fill-available;
+}

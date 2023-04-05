@@ -123,6 +123,6 @@ button:active {
 }
 
 .comprimento{
-    max-width: 50vw;
+    width: 60vw;
     min-width: 300px;
 }
