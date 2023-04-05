@@ -6,7 +6,7 @@ pre {
     border: 1px solid transparent;
     margin: 1rem 0 2rem;
     padding: 1rem 2.5rem 1rem 1rem;
-    border-radius: 10px;
+    border-radius: var(--quina);
     width: -webkit-fill-available;
 }
 
@@ -17,8 +17,9 @@ input, textarea {
     background-color: #292829;
     color: aliceblue;
     padding: 15px 32px;
-    border-radius: 10px;
+    border-radius: var(--quina);
     font-family: "Poppins", sans-serif;
+    border: 0;
 }
 
 textarea,input {
@@ -30,4 +31,7 @@ section {
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+label {
+    padding: 0 0 0 0.8rem;
 }
