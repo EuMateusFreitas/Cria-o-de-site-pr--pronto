@@ -17,4 +17,7 @@ function gerarCodigo() {
     },
   `;
   document.getElementById('codigo').textContent = codigo;
+  hljs.highlightElement(document.getElementById('codigo-gerado'));
+
 }
+
