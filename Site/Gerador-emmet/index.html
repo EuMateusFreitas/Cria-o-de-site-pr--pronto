@@ -71,32 +71,35 @@
   <!--==========Link de CSS==========-->
   <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="style.css">
-  <!--==========Link de fora==========-->
-
+  <!--==========Link de CSS==========-->
+ 
 </head>
 
 <body>
   <section class="comprimento">
     <button class="botao2
   " onclick="window.location.href='../'">Voltar para a página principal</button>
-    <form>
-      <label for="prefixo">Prefixo:</label>
-      <input placeholder="Digite aqui o texto que puxará o seu código" type="text" id="prefixo">
-      <br>
-      <label for="descricao">descrição do snippet:</label>
-      <br>
-      <input type="text" id="descricao" placeholder="Aqui entrará uma breve descrição do que se trata seu código.">
-      <br>
-      <label for="texto">Digite seu código:</label>
-      <br>
-      <textarea id="texto"></textarea>
-      <br>
-      <button type="submit">Enviar</button>
-    </form>
-    <pre><code></code></pre>
+  <form>
+    <label for="prefixo">Prefixo:</label>
+    <input placeholder="Digite aqui o texto que puxará o seu código" type="text" id="prefixo">
+    <br>
+    <label for="descricao">Descrição do snippet:</label>
+    <br>
+    <input type="text" id="descricao" placeholder="Aqui entrará uma breve descrição do que se trata seu código.">
+    <br>
+    <label for="snippet">Digite seu código:</label>
+    <br>
+    <textarea id="snippet"></textarea>
+    <br>
+    <button type="button" onclick="gerarCodigo()">Gerar código</button>
+  </form>
+  <pre><code id="codigo"></code></pre>
+  
 </body>
 
 <!--==========Link de script==========-->
 <script src="js/Gerador.js"></script>
+
+<!--==========Link de script==========-->
 
 </html>
