@@ -23,7 +23,8 @@ input, textarea {
 }
 
 textarea,input {
-    width: -webkit-fill-available;
+    min-width: -webkit-fill-available;
+    max-width: -webkit-fill-available;
 }
 
 section {
@@ -33,5 +34,9 @@ section {
     flex-direction: column;
 }
 label {
-    padding: 0 0 0 0.8rem;
+    
+}
+
+input {
+    margin: 0 0 1rem 0;
 }
