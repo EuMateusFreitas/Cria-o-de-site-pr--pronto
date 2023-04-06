@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: https://webautoflow.netlify.app/sitemap.xml
