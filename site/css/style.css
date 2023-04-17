@@ -1,3 +1,6 @@
+@charset "utf-8";
+
+
 /* Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 *{
@@ -85,9 +88,12 @@ a {
     color: #44a4fc;
 }
 
+/* código
 .bg1{
-    background-image: url();
+    background: url('../img/bg1.jpg') no-repeat center;
+    background-size: cover;
 }
+*/
 
 button,
 .botao {
