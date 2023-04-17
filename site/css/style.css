@@ -1,6 +1,7 @@
 /* Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 *{
+     /* Tipografica */
     font-family: "Poppins", sans-serif;
 }
 :root {
@@ -13,9 +14,6 @@
     --cor-escuro: #1a1c1e;
     --cor-escuro2: #211431;
     --cor-escuro3: #352844;
-
-    /* Tipografica */
-    font-family: "Poppins", sans-serif;
 
     /* Hierarquia Tipografica */
     --font-tamanho-h1: 2.25rem;
@@ -34,12 +32,14 @@
     }
 }
 
-/* Cores ao selecionar um texto */
+/* Cor de seleção de texto */
 ::selection {
     background: var(--cor-primaria);
     color: var(--cor-clara);
 }
-
+html, body{
+    height: 100%;
+}
 body {
     background: var(--cor-escuro);
     color: var(--cor-clara);
@@ -83,6 +83,10 @@ p, label {
 a {
     text-decoration: none;
     color: #44a4fc;
+}
+
+.bg1{
+    background-image: url();
 }
 
 button,
