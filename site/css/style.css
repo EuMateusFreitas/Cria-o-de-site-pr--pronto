@@ -11,8 +11,9 @@
     --quina: .375rem;
 
     /* Paleta de cores*/
+    --gradiente: linear-gradient(92deg, #FF6D04 6.25%, #F00 50.52%, #8908EE 93.91%);
     --cor-primaria: #683DE5;
-    --cor-secundaria: #11E5B3;
+    --cor-secundaria: #683DE5;
     --cor-clara: #f3f3f3;
     --cor-escuro: #1a1c1e;
     --cor-escuro2: #211431;
@@ -56,6 +57,10 @@ h1 {
     font-weight: 500;
 }
 
+h1.titulo-boas-vindas {
+    font-size: 3.75;
+}
+
 .titulo2,
 h2 {
     color: var(--cor-secundaria);
@@ -67,6 +72,10 @@ h2 {
 h3 {
     font-weight: 500;
     font-size: var(--font-tamanho-h3);
+}
+
+.text-center {
+    text-align: center;
 }
 
 p, label {
@@ -109,7 +118,8 @@ button,
     font-family: "Poppins", sans-serif;
     margin: 4px 2px;
     transition: all 0.3s ease-in-out;
-    box-shadow: 0 20px 30px -15px var(--cor-primaria);
+    box-shadow: 0 20px 30px -15px var(--gradiente);
+    background-image: var(--gradiente);
     background-color: var(--cor-primaria);
     color: var(--cor-clara);
 }
@@ -134,6 +144,17 @@ button:active {
 
 .botao2:hover {
     border-color: var(--cor-secundaria);
+}
+
+.gradient{
+background-image: var(--gradiente);
+}
+
+.gradient-texto{
+    background-image: var(--gradiente);
+    webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 
 .comprimento{
